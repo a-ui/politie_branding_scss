@@ -6,7 +6,7 @@
 .o-header {
   background-color: $header-bg;
   border-bottom: 1px solid $header-border;
-  height: calc($header-height + 1px);
+  height: calc(#{$header-height} + 1px);
   position: relative;
 
   &,

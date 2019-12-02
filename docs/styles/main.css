@@ -5570,7 +5570,7 @@ dl {
 .o-header {
 	background-color: white;
 	border-bottom: 1px solid #949494;
-	height: calc($header-height + 1px);
+	height: calc(4rem + 1px);
 	position: relative;
 }
 
