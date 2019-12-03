@@ -5639,6 +5639,7 @@ dl {
 }
 
 .o-header__button-logo {
+	float: right;
 	height: 3rem;
 	margin: 0.5rem 0.5rem 0.5rem 0;
 	padding: 0;

@@ -61,6 +61,7 @@
   }
 
   &-logo {
+    float: right;
     height: $header-height - ($spacer / 3 * 2);
     margin: $spacer / 3 $spacer / 3 $spacer / 3 0;
     padding: 0;

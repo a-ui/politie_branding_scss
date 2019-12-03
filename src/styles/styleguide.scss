@@ -215,7 +215,9 @@
 }
 
 .d-u-text-xlight,
-.d-u-text-warning {
+.d-u-text-warning,
+.d-u-text-tertiary,
+.d-u-text-quaternary {
   background-color: $black;
   padding: $spacer / 4;
 }

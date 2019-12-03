@@ -90,7 +90,7 @@
 
         <div class="u-wrapper d-h1 u-text-secondary u-bg-tertiary">
             <div class="u-container">
-                <h1>Politie branding styleguide <small class="u-bg-danger u-text-xlight">v1.0.0-beta.2</small></h1>
+                <h1>Politie branding styleguide <small class="u-bg-danger u-text-xlight">v1.0.0-beta.3</small></h1>
                 <p class="u-margin-top">A collection of building blocks for your next Politie-based application.</p>
             </div>
         </div>
@@ -112,9 +112,9 @@
 
             <h3 class="h5 has-base-font u-text-bold u-margin-top-lg">Basic implementation</h3>
             <p class="u-margin-top u-margin-bottom-xs">In its simplest form you can just include the following line in the <code>&lt;head&gt;</code> section of your app.</p>
-            <pre class="a-pre a-pre--scrollable"><code>&lt;link rel="stylesheet" href="https://cdn.antwerpen.be/politie_branding_scss/1.0.0-beta.2/main.min.css"&gt;</code></pre>
+            <pre class="a-pre a-pre--scrollable"><code>&lt;link rel="stylesheet" href="https://cdn.antwerpen.be/politie_branding_scss/1.0.0-beta.3/main.min.css"&gt;</code></pre>
             <p class="u-margin-top u-margin-bottom-xs">You can even import it directly in your (S)CSS:</p>
-            <pre class="a-pre a-pre--scrollable"><code>@import url("https://cdn.antwerpen.be/politie_branding_scss/1.0.0-beta.2/main.min.css");</code></pre>
+            <pre class="a-pre a-pre--scrollable"><code>@import url("https://cdn.antwerpen.be/politie_branding_scss/1.0.0-beta.3/main.min.css");</code></pre>
             <div class="m-alert d-alert u-margin-top">
                 <p>We adopt semantic versioning. If you want to use another version of the Core Branding you can do so by adjusting the version in the URL address. See the changelog for all available versions.</p>
             </div>
@@ -668,6 +668,10 @@
                             <code>$header-btn-color</code>: #00368a
                         </li>
                     
+                        <li class="d-link-color">
+                            <code>$link-color</code>: #cc4d00
+                        </li>
+                    
                 </ul>
             </div>
         </div>
@@ -906,6 +910,15 @@
         
         <div class="d">
             <div>
+                <div class="u-bg-quaternary d-u-bg-quaternary d-bgutility"><code>.u-bg-quaternary</code></div>
+            </div>
+            <div>
+                <pre class="a-pre a-pre--scrollable"><code>&lt;div class="u-bg-quaternary"&gt;.u-bg-quaternary&lt;/div&gt;</code></pre>
+            </div>
+        </div>
+        
+        <div class="d">
+            <div>
                 <div class="u-bg-secondary d-u-bg-secondary d-bgutility"><code>.u-bg-secondary</code></div>
             </div>
             <div>
@@ -919,6 +932,15 @@
             </div>
             <div>
                 <pre class="a-pre a-pre--scrollable"><code>&lt;div class="u-bg-success"&gt;.u-bg-success&lt;/div&gt;</code></pre>
+            </div>
+        </div>
+        
+        <div class="d">
+            <div>
+                <div class="u-bg-tertiary d-u-bg-tertiary d-bgutility"><code>.u-bg-tertiary</code></div>
+            </div>
+            <div>
+                <pre class="a-pre a-pre--scrollable"><code>&lt;div class="u-bg-tertiary"&gt;.u-bg-tertiary&lt;/div&gt;</code></pre>
             </div>
         </div>
         
@@ -1480,6 +1502,19 @@
         
         <div class="d">
             <div>
+                <div class="d-textutility d-u-text-quaternary">
+                    <p class="u-text-quaternary">Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram.</p>
+                </div>
+                
+            </div>
+            <div>
+                <pre class="a-pre a-pre--scrollable"><code>&lt;p class="u-text-quaternary"&gt;.u-text-quaternary&lt;/p&gt;</code></pre>
+                
+            </div>
+        </div>
+        
+        <div class="d">
+            <div>
                 <div class="d-textutility d-u-text-readable">
                     <p class="u-text-readable">Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram.</p>
                 </div>
@@ -1526,6 +1561,19 @@
             </div>
             <div>
                 <pre class="a-pre a-pre--scrollable"><code>&lt;p class="u-text-success"&gt;.u-text-success&lt;/p&gt;</code></pre>
+                
+            </div>
+        </div>
+        
+        <div class="d">
+            <div>
+                <div class="d-textutility d-u-text-tertiary">
+                    <p class="u-text-tertiary">Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram.</p>
+                </div>
+                
+            </div>
+            <div>
+                <pre class="a-pre a-pre--scrollable"><code>&lt;p class="u-text-tertiary"&gt;.u-text-tertiary&lt;/p&gt;</code></pre>
                 
             </div>
         </div>
@@ -6662,6 +6710,9 @@
                     <a href="javascript:void(0);" class="o-header__logo">
                         <img src="images/politie-logo.svg" alt="Officieel logo Politie">
                     </a>
+                    <a href="javascript:void(0);" class="o-header__button-logo">
+                        <img src="images/a-logo.svg" alt="Officieel logo Antwerpen">
+                    </a>
                 </header>
             </div>
             <div>
@@ -6669,6 +6720,9 @@
   &lt;a href="#main-content" class="a-button-negative o-header__button o-header__button-skip"&gt;Skip to main content&lt;/a&gt;
   &lt;a href="#" class="o-header__logo"&gt;
     &lt;img src="images/politie-logo.svg" alt="Official logo Politie"&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;o-header__button-logo&quot;&gt;
+    &lt;img src=&quot;images/a-logo.svg&quot; alt=&quot;Officieel logo Antwerpen&quot;&gt;
   &lt;/a&gt;
 &lt;/header&gt;</code></pre>
             </div>
@@ -6685,6 +6739,9 @@
                         </div>
                         <div class="o-header__menu-items">
                             <a href="javascript:void(0);" class="a-button-negative o-header__button">Menu button</a>
+                            <a href="javascript:void(0);" class="o-header__button-logo">
+                                <img src="images/a-logo.svg" alt="Officieel logo Antwerpen">
+                            </a>
                         </div>
                     </div>
                 </header>
@@ -6700,6 +6757,9 @@
     &lt;/div&gt;
     &lt;div class="o-header__menu-items"&gt;
       &lt;a href="#" class="a-button-negative o-header__button"&gt;Menu button&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;o-header__button-logo&quot;&gt;
+        &lt;img src=&quot;images/a-logo.svg&quot; alt=&quot;Officieel logo Antwerpen&quot;&gt;
+      &lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/header&gt;</code></pre>
