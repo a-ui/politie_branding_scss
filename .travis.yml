@@ -13,6 +13,7 @@ deploy:
   bucket: $AWS_BUCKET
   local_dir: dist
   cache_control: "max-age=31536000"
+  detect_encoding: true
   on:
     tags: true
   skip_cleanup: true
